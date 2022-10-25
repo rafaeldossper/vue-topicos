@@ -21,7 +21,7 @@ export default {
         }
     },
     methods: {
-        ...mapMutations(['setToken']),
+        ...mapMutations(['setToken', 'setAutorizacao']),
         doLogin() {
             axios.post('login',
                 {
@@ -32,6 +32,7 @@ export default {
                     console.log(response);
                     this.status = response.data.token;
                     this.setToken(response.data.token);
+                    this.setAutorizacao(response.data.autorizacao);
                 })
                 .catch(error => console.log(error));
             this.status = this.nome + ' - ' + this.senha;
