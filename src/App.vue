@@ -4,7 +4,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/usuario">Usuario</router-link> |
-    <router-link to="/login">Login</router-link>
+    <router-link to="/login">Login</router-link> |
+    <router-link to="/buscar">Buscar</router-link> |
+    <router-link to="/anotacao">Anotação</router-link>
   </nav>
   <router-view/>
 
