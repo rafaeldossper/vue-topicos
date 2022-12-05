@@ -34,6 +34,11 @@ const routes = [
     path: '/buscar',
     name: 'buscar',
     component: () => import('../views/Buscar.vue')
+  }, 
+  {
+    path: '/localidade',
+    name: 'localidade',
+    component: () => import('../views/Localidade.vue')
   }
 ]
 

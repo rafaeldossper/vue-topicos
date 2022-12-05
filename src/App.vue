@@ -6,6 +6,7 @@
     <router-link to="/usuario">Usuario</router-link> |
     <router-link to="/login">Login</router-link> |
     <router-link to="/buscar">Buscar</router-link> |
+    <router-link to="/localidade">Localidade</router-link> |
     <router-link to="/anotacao">Anotação</router-link>
   </nav>
   <router-view/>
